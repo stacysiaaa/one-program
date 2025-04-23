@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    color: beige;
+    font-family: Product Sans;;
+}
+
+
+.container{
+    max-width: 1235px;
+    margin:0 auto;
+}
+
+/*
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+*/
+.header-nav{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:55px;
+}
+
+.header-nav li a{
+text-decoration: none;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #32333D;
+}
+
+.header-button{
+width:230px;
+height: 60px;
+border-radius: 60px;
+border: none;
+background-color: #5EB083;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Product Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+
+.button-tick{
+width: 17.99052619934082;
+height: 18;
+padding-right: 10px;
+
+}
+
+.header-nav li a:hover{
+    color: #5EB083;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+
+}
+
+/*
+.header-main{
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+*/
+
+.header-main h1{
+
+font-weight: 400;
+font-size: 70px;
+line-height: 100%;
+color: #32333D;
+margin-bottom: 25px;
+margin-top: 225px;
+}
+
+.header-main p{
+    font-family: Product Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+color: #5B6574;
+margin-bottom: 25px;
+}
+
+.header-button-orange{
+    width: 250px;
+height: 75px;
+border-radius: 60px;
+border:none;
+color:#FFFFFF;
+background-color: #FFBB8A;
+font-family: Product Sans;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.header-wrapper {
+    width: 100%; /* або інша ширина */
+    margin: 0 auto; /* Центрування по горизонталі */
+    position: relative; /* Щоб можна було щось відносно нього ставити */
+    z-index: 2; /* Важливо для перекриття */
+    display: flex; /* Щоб красиво розкладати навігацію */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  
+  .header-main {
+    position: relative; /* Можна почати з relative */
+    display: flex;
+    justify-content: flex-end; /* Щоб контент у header-main ішов до правого краю */
+    align-items: center;
+    margin-top: -150px; /* Залазимо на wrapper */
+    z-index: 1; /* Нижчий за header-wrapper */
+  }
+  
+
+  .picture_header {
+    width: 48%; /* наприклад, або як тобі потрібно */
+    height: auto;
+  }
+
+  
+  .header-content {
+    max-width: 600px;
+    margin-right: 50px; /* щоб текст не був впритул до картинки */
+    text-align: left; /* якщо хочеш ще й текст вирівняти направо */
+  }
+  
+  .header-options{
+    margin-left: 60px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-first-block h2{
+font-weight: 400;
+font-size: 60px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#32333D ;
+  }
+
+  .main-first-block p{
+    font-family: Product Sans;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0%;
+color: #5B6574;
+  }
+
+  .main-first-block{
+    margin-top:30px;
+  }
+
+  .main-second-block h3{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+  color:#000000 ;
+  }
+
+  .main-second-block p{
+    font-family: Product Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+letter-spacing: 0%;
+color:#5B6574;
+max-width:505px;
+  }
+
+  .main-second-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+  }
+
+  .main-third-block{
+    display: flex;
+    align-items: center;
+    gap:120px;
+  }
+
+  .main-third-block h3{
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+color: #000000;
+  }
+
+  .main-third-block p{
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+color: #5B6574;
+max-width: 505px;
+max-height: 99px;
+  }
+
+.main-forth-block h3{
+font-weight: 400;
+font-size: 36px;
+line-height: 100%;
+color: #000000;
+  }
+
+.main-forth-block p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #5B6574;
+  max-width: 505px;
+max-height: 99px;
+
+
+}
+
+.main-forth-block h3{
+ 
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+color: #000000;
+}
+
+.main-forth-block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+ 
