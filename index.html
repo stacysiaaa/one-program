@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>One program</title>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="top" >
       <div class="container">
         <div class="header-wrapper">
           <div class="header-logo">
@@ -374,6 +376,12 @@
         <img class="arrow-white" src="images/Icons/arrow-whhite.svg" />
         <img class="arrow-green" src="images/Icons/arrow-green.svg" />
         <h2 class="testimonials-title">Testimonials</h2>
+
+        <div class="section-phone">
+          <img class="image-phone" src="images/Icons/testimonials.svg">
+          <p class="par-phone">Adriano K.</p>
+        </div>
+
         <article class="testimonials">
           <section class="left-section">
             <img
@@ -513,15 +521,13 @@
           <img src="images/Icons/instagram.svg" />
           <img src="images/Icons/telegram.svg" />
         </section>
-        <img class="footer-image" src="images/Icons/footer-arrow.svg" />
+
+        <a href="#top">
+        <img class="footer-image" src="images/Icons/footer-arrow.svg" alt="Go to top">
+
+      </a>
       </footer>
     </div>
-
-    <script>
-      document.querySelector(".burger").addEventListener("click", function () {
-        this.classList.toggle("active");
-        document.querySelector(".header-nav").classList.toggle("open");
-      });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
