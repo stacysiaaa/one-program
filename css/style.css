@@ -192,12 +192,28 @@ body {
   text-align: left;
 }
 
+.header-options-container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .header-options {
   display: flex;
   justify-content: flex-end;
   margin-top: 40px;
   gap: 17px;
   overflow: hidden;
+  animation: animation 30s linear infinite;
+  width: max-content;
+}
+
+@keyframes animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .main-first-block h2 {
@@ -1411,7 +1427,7 @@ details[open] summary {
     flex-direction: column;
   }
 
- 
+
 
   footer {
     flex-direction: column;
@@ -1495,7 +1511,7 @@ details[open] summary {
 
   .left-section {
     display: none;
- 
+
   }
 
   .testimonials-title {
